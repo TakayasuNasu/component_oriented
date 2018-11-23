@@ -6,8 +6,32 @@
 @snapend
 
 @snap[south-west byline  text-white]
-企画制作部<br>那須 毅然健康
+企画制作部<br>那須 毅康
 @snapend
+
+---?color=linear-gradient(to right, #021B79, #0575E6)&position=right&size=70%
+@title[Agenda]
+
+@snap[west split-screen-heading text-pink span-50]
+Agenda!
+@snapend
+
+@snap[east text-white span-65]
+@ul[](false)
+- UI複雑化の背景
+- そもそもコンポーネント指向とは?
+- コンポーネント・ベースでUIを開発する場合のメリット
+- コンポーネント・ベースでの設計の基本と分割基準
+@ulend
+@snapend
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[Why UI be complicated?]
+
+## UI複雑化の背景
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[Slide Markdown]
 
 ---
 @title[Slide Markdown]
