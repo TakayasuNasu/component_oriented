@@ -28,10 +28,50 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Why UI be complicated?]
 
-## UI複雑化の背景
+## @color[white](UI複雑化の背景)
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[Slide Markdown]
+@title[reason]
+
+@snap[east list-content-concise span-100]
+@ul[](false)
+- html5/css3の登場
+  - このことによりJavaScriptやcssで実現できることが増加
+  - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
+- ユーザーが使う端末の種類が増加
+  - 各デバイスの大きさに対応したUIを設計しなければならない
+  - 今やiPhoneだけでも6種類の画面サイズがある
+@ulend
+@snapend
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result]
+
+@snap[west span-100]
+## 複雑化することによって<br>開発期間の長期化や不具合や<br>デグレが起きるリスクが高まります。
+@snapend
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result2]
+
+@snap[east list-content-concise span-100]
+@ul[](false)
+- そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
+- それをwebの画面作成に応用し、各UIを部品かした状態。下記4つの特徴があります
+  1. カプセル化されている
+  2. 置換可能である
+  3. 再利用可能である
+  4. コンポーネントを別のコンポーネントに組み合わせて作成可能である
+@ulend
+@snapend
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result]
+
+@snap[west span-100]
+## UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装する
+@snapend
 
 ---
 @title[Slide Markdown]
