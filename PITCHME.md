@@ -12,7 +12,7 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Agenda]
 
-@snap[west split-screen-heading text-pink bg-white span-50]
+@snap[west split-screen-heading text-pink span-50]
 Agenda!
 @snapend
 
@@ -34,7 +34,7 @@ Agenda!
 @title[reason]
 
 @snap[east list-content-concise span-100]
-@ul[](false)
+@ul[list-bullets-circles]
 - html5/css3の登場
   - このことによりJavaScriptやcssで実現できることが増加
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
