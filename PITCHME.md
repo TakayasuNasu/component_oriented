@@ -1,8 +1,8 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Introduction]
 
-@snap[west headline text-white span-80]
-コンポーネント指向で始める<br>*UI設計*
+@snap[west headline text-white span-70]
+コンポーネント<br>指向で始める<br>*UI設計*
 @snapend
 
 @snap[south-west byline  text-white]
