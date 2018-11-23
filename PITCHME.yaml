@@ -1,0 +1,9 @@
+theme-override : assets/css/PITCHME.css
+
+theme : sky
+
+slide-number: true
+
+transition : convex
+
+logo : assets/images/octocat01.png
