@@ -40,7 +40,6 @@ Agenda!
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
 - @color[#E71E60](ユーザーが使う端末の種類が増加)
   - 各デバイスの大きさに対応したUIを設計しなければならない
-  - 今やiPhoneだけでも6種類の画面サイズがある<i class="em em-confounded"></i>
 @ulend
 @snapend
 
@@ -72,14 +71,14 @@ Agenda!
 @title[result]
 
 @snap[west text-white span-100]
-### UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装する
+### @color[white](UIが持つ機能を@color[#E71E60](カプセル化)し、UI同士の@color[#E71E60](置換や再利用)が可能な状態にして、組み合わせることにより、より@color[#E71E60](別の大きなUIを作る)ことができるように実装する)
 @snapend
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result]
 
-@snap[west text-white span-80]
-### Uコンポーネント・ベースで<br>UIを開発する場合の@color[#E71E60](メリット)
+@snap[west text-white span-100]
+### @color[white](Uコンポーネント・ベースで<br>UIを開発する場合の)@color[#E71E60](メリット)
 @snapend
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
@@ -107,7 +106,7 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result2]
 
-@snap[east list-content-concise span-100]
+@snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
 - 依存関係の整理(小さなコンポーネントが大きなコンポーネントを含まない/その逆はOK)
 - 一つのコンポーネントが責任を持つ問題は1つ
