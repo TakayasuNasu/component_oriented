@@ -16,7 +16,7 @@
 Agenda!
 @snapend
 
-@snap[east list-content-concise span-65]
+@snap[east list-content-concise text-white span-65]
 @ul[](false)
 - UI複雑化の背景
 - そもそもコンポーネント指向とは?
@@ -35,10 +35,10 @@ Agenda!
 
 @snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
-- @color[pink](html5/css3の登場)
+- @color[#E71E60](html5/css3の登場)
   - このことによりJavaScriptやcssで実現できることが増加
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
-- ユーザーが使う端末の種類が増加
+- @color[#E71E60](ユーザーが使う端末の種類が増加)
   - 各デバイスの大きさに対応したUIを設計しなければならない
   - 今やiPhoneだけでも6種類の画面サイズがある<i class="em em-confounded"></i>
 @ulend
@@ -48,20 +48,22 @@ Agenda!
 @title[result]
 
 @snap[west text-white span-100]
-## @color[white](複雑化することによって<br>開発期間の長期化や<br>不具合やデグレが起きる<br>リスクが高まります。)
+## @color[white](複雑化することによって<br>@color[#E71E60](開発期間の長期化)や<br>@color[#E71E60](不具合やデグレ)が起きる<br>リスクが高まります)
 @snapend
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result2]
 
 @snap[east list-content-concise text-white span-100]
-@ul[]
+@ul[list-bullets-circles]
 - そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
 - それをwebの画面作成に応用し、各UIを部品かした状態。下記4つの特徴があります
-  1. カプセル化されている
-  2. 置換可能である
-  3. 再利用可能である
-  4. コンポーネントを別のコンポーネントに組み合わせて作成可能である
+  @ol
+  - カプセル化されている
+  - 置換可能である
+  - 再利用可能である
+  - コンポーネントを別のコンポーネントに組み合わせて作成可能である
+  @olend
 @ulend
 @snapend
 
@@ -76,15 +78,15 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result]
 
-@snap[west text-white span-70]
-### Uコンポーネント・ベースで<br>UIを開発する場合のメリット
+@snap[west text-white span-80]
+### Uコンポーネント・ベースで<br>UIを開発する場合の@color[#E71E60](メリット)
 @snapend
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result2]
 
 @snap[east list-content-concise text-white span-100]
-@ul[]
+@ul[list-bullets-circles]
 - 再利用で実装量を減らす
 - 平行開発で待ち時間を最小化する
 - 仕様変更による手戻り作業を最小化する
@@ -98,7 +100,7 @@ Agenda!
 @title[result]
 
 @snap[west text-white span-100]
-### コンポーネント・ベースでの設計の基本と分割基準
+### @color[white](コンポーネント・ベースでの設計の基本と分割基準)
 @snapend
 
 
@@ -106,7 +108,7 @@ Agenda!
 @title[result2]
 
 @snap[east list-content-concise span-100]
-@ul[](false)
+@ul[list-bullets-circles]
 - 依存関係の整理(小さなコンポーネントが大きなコンポーネントを含まない/その逆はOK)
 - 一つのコンポーネントが責任を持つ問題は1つ
 - コンポーネントが担当する目的別
