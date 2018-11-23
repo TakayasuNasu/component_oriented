@@ -9,14 +9,14 @@
 企画制作部<br>那須 毅康
 @snapend
 
----?color=linear-gradient(to right, #021B79, #0575E6)&position=right&size=70%
+---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Agenda]
 
 @snap[west split-screen-heading text-pink span-50]
 Agenda!
 @snapend
 
-@snap[east text-white span-65]
+@snap[east list-content-concise span-65]
 @ul[](false)
 - UI複雑化の背景
 - そもそもコンポーネント指向とは?
