@@ -1,12 +1,12 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Introduction]
 
-@snap[west headline text-white span-70]
+@snap[west headline text-white span-80]
 コンポーネント指向で始める<br>*UI設計*
 @snapend
 
 @snap[south-west byline  text-white]
-The Fastest Way From Idea To Presentation.
+企画制作部<br>那須 毅然健康
 @snapend
 
 ---
