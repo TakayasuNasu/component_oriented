@@ -33,9 +33,9 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[reason]
 
-@snap[east list-content-concise span-100]
+@snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
-- html5/css3の登場
+- @color[pink](html5/css3の登場)
   - このことによりJavaScriptやcssで実現できることが増加
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
 - ユーザーが使う端末の種類が増加
@@ -48,14 +48,14 @@ Agenda!
 @title[result]
 
 @snap[west text-white span-100]
-## 複雑化することによって<br>開発期間の長期化や不具合や<br>デグレが起きるリスクが高まります。
+## @color[white](複雑化することによって<br>開発期間の長期化や<br>不具合やデグレが起きる<br>リスクが高まります。)
 @snapend
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result2]
 
-@snap[east list-content-concise span-100]
-@ul[](false)
+@snap[east list-content-concise text-white span-100]
+@ul[]
 - そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
 - それをwebの画面作成に応用し、各UIを部品かした状態。下記4つの特徴があります
   1. カプセル化されている
@@ -83,8 +83,8 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result2]
 
-@snap[east list-content-concise span-100]
-@ul[](false)
+@snap[east list-content-concise text-white span-100]
+@ul[]
 - 再利用で実装量を減らす
 - 平行開発で待ち時間を最小化する
 - 仕様変更による手戻り作業を最小化する
