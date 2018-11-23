@@ -12,7 +12,7 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Agenda]
 
-@snap[west split-screen-heading text-pink span-50]
+@snap[west split-screen-heading text-pink bg-white span-50]
 Agenda!
 @snapend
 
@@ -40,14 +40,14 @@ Agenda!
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
 - ユーザーが使う端末の種類が増加
   - 各デバイスの大きさに対応したUIを設計しなければならない
-  - 今やiPhoneだけでも6種類の画面サイズがある
+  - 今やiPhoneだけでも6種類の画面サイズがある<i class="em em-confounded"></i>
 @ulend
 @snapend
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result]
 
-@snap[west span-100]
+@snap[west text-white span-100]
 ## 複雑化することによって<br>開発期間の長期化や不具合や<br>デグレが起きるリスクが高まります。
 @snapend
 
@@ -69,23 +69,49 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result]
 
-@snap[west span-100]
-## UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装する
+@snap[west text-white span-100]
+### UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装する
 @snapend
 
----
-@title[Slide Markdown]
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result]
 
-### Each slide in this presentation is provided as a *template*.
+@snap[west text-white span-70]
+### Uコンポーネント・ベースで<br>UIを開発する場合のメリット
+@snapend
 
-<br><br>
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result2]
 
-1. Select only the slide templates that you need.
-1. Customize the template _markdown content_.
-1. Optionally, override template _styles_ and _settings_.
-1. Then present and publish with GitPitch @fa[smile-o]
-<br><br>
+@snap[east list-content-concise span-100]
+@ul[](false)
+- 再利用で実装量を減らす
+- 平行開発で待ち時間を最小化する
+- 仕様変更による手戻り作業を最小化する
+- 新規参入開発メンバーを最短で戦力化する
+- 複数のテスト・アプローチでテスト工数を下げる
+- 複数アプリケーションの開発を容易にする
+@ulend
+@snapend
 
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result]
+
+@snap[west text-white span-100]
+### コンポーネント・ベースでの設計の基本と分割基準
+@snapend
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result2]
+
+@snap[east list-content-concise span-100]
+@ul[](false)
+- 依存関係の整理(小さなコンポーネントが大きなコンポーネントを含まない/その逆はOK)
+- 一つのコンポーネントが責任を持つ問題は1つ
+- コンポーネントが担当する目的別
+@ulend
+@snapend
 
 ---
 @title[Tip! Fullscreen]
