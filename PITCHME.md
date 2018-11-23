@@ -1,8 +1,8 @@
----?color=linear-gradient(to right, #c02425, #f0cb35)
+---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Introduction]
 
 @snap[west headline text-white span-70]
-GitPitch<br>*The Template*
+コンポーネント指向で始める<br>*UI設計*
 @snapend
 
 @snap[south-west byline  text-white]
