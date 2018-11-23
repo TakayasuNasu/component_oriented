@@ -50,6 +50,25 @@ Agenda!
 ## @color[white](複雑化することによって<br>@color[#E71E60](開発期間の長期化)や<br>@color[#E71E60](不具合やデグレ)が起きる<br>リスクが高まります)
 @snapend
 
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result]
+
+@snap[west span-100]
+### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?)<br>
+#### @color[white](いろいろな方法があると思いますが、その方法の一つであるUIのコンポーネント化について)
+@snapend
+
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[result]
+
+@snap[west text-white span-100]
+### @color[white](Uそもそもコンポーネント@color[#E71E60](指向)とは?)
+@snapend
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result2]
 
