@@ -83,11 +83,11 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[今後どのようにアプローチしていけばよいのか?]
 
-@snap[north-west span-100]
+@snap[west span-100]
 ### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>)
 @snapend
 
-@snap[south list-content-concise text-white span-100]
+@snap[west list-content-concise text-white span-100]
 @ul
 - いろいろな方法があると思いますが、その方法の一つであるコンポーネント指向をベースとしたUI開発について、メリットや設計方法などをお話ししたいと思います。
 @ulend
