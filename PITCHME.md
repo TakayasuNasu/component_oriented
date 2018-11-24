@@ -83,8 +83,8 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[今後どのようにアプローチしていけばよいのか?]
 
-@snap[west span-100]
-### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>)<br<br>><br>
+@snap[north-west span-100]
+### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>)
 @snapend
 
 @snap[south list-content-concise text-white span-100]
