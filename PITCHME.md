@@ -75,7 +75,7 @@ Agenda!
 @title[様々なリスク]
 
 @snap[west text-white span-100]
-## @color[white](複雑化することによって<br>@color[#E71E60](開発期間の長期化)や<br>@color[#E71E60](不具合・デグレ)が起きる<br>リスクが高まります)
+## @color[white](複雑化することによって<br>@color[#E71E60](**開発期間の長期化**)や<br>@color[#E71E60]**(不具合・デグレ**)が起きる<br>リスクが高まります)
 @snapend
 
 
@@ -84,7 +84,7 @@ Agenda!
 @title[今後どのようにアプローチしていけばよいのか?]
 
 @snap[west span-100]
-### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>?)<br>
+### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>)<br<br>><br>
 @snapend
 
 @snap[south list-content-concise text-white span-100]
