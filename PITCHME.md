@@ -18,7 +18,7 @@
 @color[white](いきなりですが...)
 @snapend
 
-@snap[north-west]
+@snap[west]
 ### @color[white](**Atomic Design**や<br>**コンポーネント指向**という言葉を<br>聞いたことがある方<i class="em em-hand"></i>)
 @snapend
 
