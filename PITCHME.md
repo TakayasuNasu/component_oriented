@@ -22,7 +22,7 @@
 ### @color[white](**Atomic Design**や<br>**コンポーネント指向**という言葉を<br>聞いたことがある方<i class="em em-hand"></i>)
 @snapend
 
-@snap[south list-content-concise text-white]
+@snap[south list-content-concise text-white span-100]
 @ul
 - コンポーネント指向とは何かを話す前に、まず少しだけUIが複雑になってきている背景を説明したいと思います。
 @ulend
