@@ -132,21 +132,21 @@ Agenda!
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result]
+@title[Example]
 
 @snap[north text-white]
-Example
+例えばiprimoの場合
 @snapend
 
-@snap[east split-screen-img]
+@snap[west split-screen-img-55]
 ![DEVELOPER](template/img/sample01.jpg)
 @snapend
 
-@snap[west split-screen-img]
+@snap[east split-screen-img-55]
 ![DEVELOPER](template/img/sample02.jpg)
 @snapend
 
-@snap[south-west template-note text-gray]
+@snap[south-west span-100]
 カプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装します
 @snapend
 
@@ -206,9 +206,9 @@ Example
 @color[white](
 具体的には
 )
-### @fa[angle-right] インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
-### @fa[angle-right] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
-### @fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
+#### @fa[angle-right] @color[white](インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド))
+#### @fa[angle-right] @color[white](ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
+#### @fa[angle-right] @color[white](その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
 @snapend
 
 
@@ -216,13 +216,20 @@ Example
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[スタイルガイドのサンプル]
 
-スタイルガイドのサンプル
+@snap[north]
+@color[white](スタイルガイドのサンプル)
+@snapend
+
+@snap[south-west span-100]
+UI インベントリー — Website Usability Info https://website-usability.info/2015/10/entry_151017.html
+Website Style Guide Resources http://styleguides.io/
+@snapend
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-s@nap[west split-screen-heading text-pink span-20]
+@snap[west split-screen-heading text-pink span-20]
 まとめ
 @snapend
 
