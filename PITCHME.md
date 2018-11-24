@@ -138,15 +138,12 @@ Agenda!
 例えばiprimoの場合
 @snapend
 
-@snap[west split-screen-img-55]
+@snap[midpoint]
 ![DEVELOPER](template/img/sample01.jpg)
-@snapend
-
-@snap[east split-screen-img-55]
 ![DEVELOPER](template/img/sample02.jpg)
 @snapend
 
-@snap[south-west span-100]
+@snap[south-west template-note text-white span-100]
 カプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装します
 @snapend
 
@@ -203,9 +200,7 @@ Agenda!
 @title[設計の基本と分割基準の具体的方法]
 
 @snap[east text-white left]
-@color[white](
-具体的には
-)
+@color[white](具体的には)
 #### @fa[angle-right] @color[white](インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド))
 #### @fa[angle-right] @color[white](ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
 #### @fa[angle-right] @color[white](その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
@@ -220,20 +215,28 @@ Agenda!
 @color[white](スタイルガイドのサンプル)
 @snapend
 
-@snap[south-west span-100]
-UI インベントリー — Website Usability Info https://website-usability.info/2015/10/entry_151017.html
-Website Style Guide Resources http://styleguides.io/
+@snap[west split-screen-img-55]
+![DEVELOPER](template/img/sample03.jpg)
+@snapend
+
+@snap[east split-screen-img-55]
+![DEVELOPER](template/img/sample04.jpg)
+@snapend
+
+@snap[south-west template-note text-white span-100]
+左 UI インベントリー — Website Usability Info https://website-usability.info/2015/10/entry_151017.html
+右 Website Style Guide Resources http://styleguides.io/
 @snapend
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-@snap[west split-screen-heading text-pink span-20]
+@snap[west split-screen-heading text-pink span-25]
 まとめ
 @snapend
 
-@snap[east list-content-concise text-white span-85]
+@snap[east list-content-concise text-white span-80]
 @ul[list-bullets-circles](false)
 - 今後もweb技術の発展と共にUIは複雑になっていきそう
 - 複雑化したUIに対するアプローチの一つとしてコンポーネント指向をベースとしたUI開発があります
