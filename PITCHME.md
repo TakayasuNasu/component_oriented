@@ -201,11 +201,11 @@ Example
 --?color=linear-gradient(to right, #021B79, #0575E6)
 @title[設計の基本と分割基準の具体的方法]
 
-@snap[east text-white center]
+@snap[east text-white left]
 @color[white](具体的には)
-### @fa[angle-right ] インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
-### @fa[angle-right ] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
-### @fa[angle-right ] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
+### @fa[angle-right] インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
+### @fa[angle-right] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
+### @fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
 @snapend
 
 
@@ -219,11 +219,11 @@ Example
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-snap[west split-screen-heading text-pink span-30]
+snap[west split-screen-heading text-pink span-20]
 まとめ
 @snapend
 
-@snap[east list-content-concise text-white span-70]
+@snap[east list-content-concise text-white span-85]
 @ul[list-bullets-circles](false)
 - 今後もweb技術の発展と共にUIは複雑になっていきそう
 - 複雑化したUIに対するアプローチの一つとしてコンポーネント指向をベースとしたUI開発があります
