@@ -201,9 +201,9 @@ Agenda!
 
 @snap[west text-white]
 @color[white](具体的には)
-####  @color[white](@fa[arrow-alt-circle-right] インターフェース・インベントリ（サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド）)
-#### @color[white](@fa[arrow-alt-circle-right] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
-#### @color[white](@fa[arrow-alt-circle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
+####  @color[white](@fa[angle-right] インターフェース・インベントリ（サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド）)
+#### @color[white](@fa[angle-right] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
+#### @color[white](@fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
 @snapend
 
 
