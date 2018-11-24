@@ -87,7 +87,7 @@ Agenda!
 
 @snap[south list-content-concise text-white span-100]
 @ul
-- いろいろな方法があると思いますが、その方法の一つであるUIのコンポーネント化について、メリットや設計方法などをお話ししたいと思います。
+- いろいろな方法があると思いますが、その方法の一つであるコンポーネント指向をベースとしたUI開発について、メリットや設計方法などをお話ししたいと思います。
 @ulend
 @snapend
 
@@ -201,14 +201,15 @@ Example
 --?color=linear-gradient(to right, #021B79, #0575E6)
 @title[設計の基本と分割基準の具体的方法]
 
-@color[white]
+@color[white](
 具体的には
 
 インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
 ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
 
 その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
-@colorend
+)
+
 
 --?color=linear-gradient(to right, #021B79, #0575E6)
 @title[スタイルガイドのサンプル]
@@ -219,15 +220,25 @@ Example
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-@snap[east list-content-concise text-white]
-@ul[list-bullets-circles]
+snap[west split-screen-heading text-pink span-30]
+まとめ
+@snapend
+
+@snap[east list-content-concise text-white span-70]
+@ul[list-bullets-circles](false)
 - 今後もweb技術の発展と共にUIは複雑になっていきそう
-- UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装する
-- スタイルガイドを作りましょう
+- 複雑化したUIに対するアプローチの一つとしてコンポーネント指向をベースとしたUI開発があります
+- UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装します
+- それなりの規模のサイトを作る場合はスタイルガイドを作りましょう
 @ulend
 @snapend
 
 
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[まとめ]
+
+@color[white](## **ご静聴ありがとうございました**)
 
 ---
 @title[Tip! Fullscreen]
