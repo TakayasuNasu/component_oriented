@@ -214,7 +214,7 @@ Example
 
 
 
---?color=linear-gradient(to right, #021B79, #0575E6)
+---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[スタイルガイドのサンプル]
 
 スタイルガイドのサンプル
@@ -241,7 +241,7 @@ snap[west split-screen-heading text-pink span-20]
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-@color[white](## **ご静聴ありがとうございました**)
+## @color[white](**ご静聴ありがとうございました**)
 
 ---
 @title[Tip! Fullscreen]
