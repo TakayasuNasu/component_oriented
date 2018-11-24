@@ -199,9 +199,9 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[設計の基本と分割基準の具体的方法]
 
-@snap[east text-white left]
+@snap[west text-white]
 @color[white](具体的には)
-#### @fa[angle-right] @color[white](インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド))
+#### @fa[angle-right] @color[white](インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド) )
 #### @fa[angle-right] @color[white](ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
 #### @fa[angle-right] @color[white](その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
 @snapend
@@ -215,16 +215,17 @@ Agenda!
 @color[white](スタイルガイドのサンプル)
 @snapend
 
-@snap[west split-screen-img-55]
+@snap[west split-screen-img-45]
 ![DEVELOPER](template/img/sample03.jpg)
 @snapend
 
-@snap[east split-screen-img-55]
+@snap[east split-screen-img-45]
 ![DEVELOPER](template/img/sample04.jpg)
 @snapend
 
 @snap[south-west template-note text-white span-100]
 左 UI インベントリー — Website Usability Info https://website-usability.info/2015/10/entry_151017.html
+<br>
 右 Website Style Guide Resources http://styleguides.io/
 @snapend
 
@@ -236,7 +237,7 @@ Agenda!
 まとめ
 @snapend
 
-@snap[east list-content-concise text-white span-80]
+@snap[east list-content-concise text-white span-75]
 @ul[list-bullets-circles](false)
 - 今後もweb技術の発展と共にUIは複雑になっていきそう
 - 複雑化したUIに対するアプローチの一つとしてコンポーネント指向をベースとしたUI開発があります
