@@ -201,9 +201,9 @@ Agenda!
 
 @snap[west text-white]
 @color[white](具体的には)
-#### @fa[angle-right] @color[white](インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド) )
-#### @fa[angle-right] @color[white](ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
-#### @fa[angle-right] @color[white](その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
+####  @color[white](@fa[angle-right]インターフェース・インベントリ（サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド）)
+#### @color[white](@fa[angle-right]ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
+#### @color[white](@fa[angle-right]その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
 @snapend
 
 
@@ -249,54 +249,6 @@ Agenda!
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[まとめ]
+@title[終わり]
 
 ### @color[white](**ご静聴ありがとうございました**)
-
----
-@title[Tip! Fullscreen]
-
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
-
----?include=template/md/split-screen/PITCHME.md
-
----?include=template/md/sidebar/PITCHME.md
-
----?include=template/md/list-content/PITCHME.md
-
----?include=template/md/boxed-text/PITCHME.md
-
----?include=template/md/image/PITCHME.md
-
----?include=template/md/sidebox/PITCHME.md
-
----?include=template/md/code-presenting/PITCHME.md
-
----?include=template/md/header-footer/PITCHME.md
-
----?include=template/md/quotation/PITCHME.md
-
----?include=template/md/announcement/PITCHME.md
-
----?include=template/md/about/PITCHME.md
-
----?include=template/md/wrap-up/PITCHME.md
-
----
-@title[The Template Docs]
-
-@snap[west span-100]
-### **Now it's @color[#E49436](your) turn.**
-
-<br>
-
-#### Use these templates to create custom slides.
-#### **Then amaze your audience with a Git@color[#E49436](Pitch) slideshow @fa[smile-o]**
-@snapend
-
-@snap[south docslink span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend
