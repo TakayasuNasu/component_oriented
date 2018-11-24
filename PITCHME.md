@@ -14,11 +14,11 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[本題の前に]
 
-@snap[north]
+@snap[north white]
 いきなりですが...
 @snapend
 
-### @color[white](Atomic Designやコンポーネント指向という言葉を聞いたことがある方<i class="em em-hand"></i>)
+### @color[white](Atomic Designや<br>コンポーネント指向という言葉を<br>聞いたことがある方<i class="em em-hand"></i>)
 
 @snap[south list-content-concise text-white span-100]
 @ul
@@ -223,7 +223,7 @@ Example
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-snap[west split-screen-heading text-pink span-20]
+s@nap[west split-screen-heading text-pink span-20]
 まとめ
 @snapend
 
@@ -241,7 +241,7 @@ snap[west split-screen-heading text-pink span-20]
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[まとめ]
 
-## @color[white](**ご静聴ありがとうございました**)
+### @color[white](**ご静聴ありがとうございました**)
 
 ---
 @title[Tip! Fullscreen]
