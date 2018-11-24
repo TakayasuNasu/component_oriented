@@ -14,7 +14,7 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[本題の前に]
 
-@snap[North]
+@snap[north]
 いきなりですが...
 @snapend
 
@@ -123,7 +123,7 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[つまり]
 
-@snap[North text-white]
+@snap[north text-white]
 つまり...
 @snapend
 
@@ -135,11 +135,11 @@ Agenda!
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result]
 
-@snap[North text-white]
+@snap[north text-white]
 Example
 @snapend
 
-@snap[east split-screen-byline text-white]
+@snap[east split-screen-img]
 ![DEVELOPER](template/img/sample01.jpg)
 @snapend
 
@@ -181,21 +181,6 @@ Example
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[設計の基本と分割基準1]
 
-
-@snap[North text-white]
-このように様々なメリットがありますが
-とは言ってもいきなりコンポーネント・ベースでの開発にシフトするのは難しいと思います。
-@snapend
-
-@snap[North text-white]
-画面UIを設計する場合、基本的にはまず全体から問題を俯瞰してから、各パーツをどのようにレイアウトしていくかを考えるかと思います。
-<br>
-ではどのようにしてコンポーネント・ベースで開発を進めていけばよいのか?<i class="em em-thinking_face"></i>?
-@snapend
-
----?color=linear-gradient(to right, #021B79, #0575E6)
-@title[設計の基本と分割基準1]
-
 @snap[west text-white]
 ### @color[white](コンポーネント・ベースでの設計の基本と分割基準)
 @snapend
@@ -210,6 +195,35 @@ Example
 - 依存関係の整理(小さなコンポーネントが大きなコンポーネントを含まない/その逆はOK)
 - 一つのコンポーネントが責任を持つ問題は1つ
 - コンポーネントが担当する目的別
+@ulend
+@snapend
+
+--?color=linear-gradient(to right, #021B79, #0575E6)
+@title[設計の基本と分割基準の具体的方法]
+
+@color[white]
+具体的には
+
+インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
+ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
+
+その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
+@colorend
+
+--?color=linear-gradient(to right, #021B79, #0575E6)
+@title[スタイルガイドのサンプル]
+
+スタイルガイドのサンプル
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[まとめ]
+
+@snap[east list-content-concise text-white]
+@ul[list-bullets-circles]
+- 今後もweb技術の発展と共にUIは複雑になっていきそう
+- UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装する
+- スタイルガイドを作りましょう
 @ulend
 @snapend
 
