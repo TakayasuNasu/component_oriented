@@ -14,13 +14,13 @@
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[本題の前に]
 
-@snap[north white]
-いきなりですが...
+@snap[north]
+@color[white](いきなりですが...)
 @snapend
 
-### @color[white](Atomic Designや<br>コンポーネント指向という言葉を<br>聞いたことがある方<i class="em em-hand"></i>)
+### @css[mt-30](@color[white](**Atomic Design**や<br>**コンポーネント指向**という言葉を<br>聞いたことがある方<i class="em em-hand"></i>))
 
-@snap[south list-content-concise text-white span-100]
+@snap[south list-content-concise text-white]
 @ul
 - コンポーネント指向とは何かを話す前に、まず少しだけUIが複雑になってきている背景を説明したいと思います。
 @ulend
