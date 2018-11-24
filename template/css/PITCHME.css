@@ -222,7 +222,7 @@
   padding: 3px 10px;
   margin-right: 15px;
   border-radius: 3px;
-  background-color: #F26225;
+  background-color: none;
   content: counter(step-counter);
 }
 

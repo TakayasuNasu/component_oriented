@@ -75,7 +75,7 @@ Agenda!
 @title[様々なリスク]
 
 @snap[west text-white span-100]
-## @color[white](複雑化することによって<br>@color[#E71E60](**開発期間の長期化**)や<br>@color[#E71E60]**(不具合・デグレ**)が起きる<br>リスクが高まります)
+## @color[white](複雑化することによって<br>@color[#E71E60](**開発期間の長期化**)や<br>@color[#E71E60](**不具合・デグレ**)が起きる<br>リスクが高まります)
 @snapend
 
 
@@ -85,7 +85,7 @@ Agenda!
 
 @snap[west list-content-concise text-white span-100]
 ### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>)
-@ul
+@ul[list-bullets-circles]
 - いろいろな方法があると思いますが、その方法の一つであるコンポーネント指向をベースとしたUI開発について、メリットや設計方法などをお話ししたいと思います。
 @ulend
 @snapend
@@ -96,7 +96,7 @@ Agenda!
 @title[そもそもコンポーネントとは1]
 
 @snap[west text-white span-100]
-### @color[white](そもそも<br>コンポーネント@color[#E71E60](指向)とは?<i class="em em-thinking_face"></i>??)
+### @color[white](そもそも<br>コンポーネント@color[#E71E60](指向)とは?)
 @snapend
 
 
@@ -105,10 +105,10 @@ Agenda!
 @title[そもそもコンポーネントとは2]
 
 @snap[east list-content-concise text-white span-100]
-@ul[list-bullets-circles]
+@ul
 - そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
 - その部品化されたものを、webの画面を構成する各パーツに当てはめ画面を作成する考え方です。下記4つの特徴があります
-  @ol[plit-screen-list]
+  @ol[split-screen-list]
   - カプセル化されている
   - 置換可能である
   - 再利用可能である
