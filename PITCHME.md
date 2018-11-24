@@ -18,7 +18,9 @@
 @color[white](いきなりですが...)
 @snapend
 
-### @css[mt-30](@color[white](**Atomic Design**や<br>**コンポーネント指向**という言葉を<br>聞いたことがある方<i class="em em-hand"></i>))
+@snap[north-west]
+### @color[white](**Atomic Design**や<br>**コンポーネント指向**という言葉を<br>聞いたことがある方<i class="em em-hand"></i>)
+@snapend
 
 @snap[south list-content-concise text-white]
 @ul
