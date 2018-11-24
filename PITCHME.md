@@ -17,7 +17,7 @@ Agenda!
 @snapend
 
 @snap[east list-content-concise text-white span-65]
-@ul[](false)
+@ul[list-bullets-circles](false)
 - UI複雑化の背景
 - そもそもコンポーネント指向とは?
 - コンポーネント・ベースでUIを開発する場合のメリット
@@ -37,7 +37,7 @@ Agenda!
 @ul[list-bullets-circles]
 - @color[#E71E60](html5/css3の登場)
   - このことによりJavaScriptやcssで実現できることが増加
-  - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のように、web技術を使ったサービスの出現
+  - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のような、web技術を使った新たなサービスの出現
 - @color[#E71E60](ユーザーが使う端末の種類が増加)
   - 各デバイスの大きさに対応したUIを設計しなければならない
 @ulend
@@ -47,7 +47,7 @@ Agenda!
 @title[result]
 
 @snap[west text-white span-100]
-## @color[white](複雑化することによって<br>@color[#E71E60](開発期間の長期化)や<br>@color[#E71E60](不具合やデグレ)が起きる<br>リスクが高まります)
+## @color[white](複雑化することによって<br>@color[#E71E60](開発期間の長期化)や<br>@color[#E71E60](不具合・デグレ)が起きる<br>リスクが高まります)
 @snapend
 
 
@@ -56,7 +56,7 @@ Agenda!
 
 @snap[west span-100]
 ### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?)<br>
-#### @color[white](いろいろな方法があると思いますが、その方法の一つであるUIのコンポーネント化について)
+#### @color[white](いろいろな方法があると思いますが、その方法の一つであるUIのコンポーネント化について、メリットや設計方法などをお話ししたいと思います。)
 @snapend
 
 
@@ -65,7 +65,7 @@ Agenda!
 @title[result]
 
 @snap[west text-white span-100]
-### @color[white](Uそもそもコンポーネント@color[#E71E60](指向)とは?)
+### @color[white](そもそも  コンポーネント@color[#E71E60](指向)とは?)
 @snapend
 
 
@@ -76,7 +76,7 @@ Agenda!
 @ul[list-bullets-circles]
 - そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
 - それをwebの画面作成に応用し、各UIを部品かした状態。下記4つの特徴があります
-  @ol
+  @ol[plit-screen-list]
   - カプセル化されている
   - 置換可能である
   - 再利用可能である
