@@ -9,6 +9,25 @@
 企画制作部<br>那須 毅康
 @snapend
 
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[本題の前に]
+
+@snap[North]
+いきなりですが...
+@snapend
+
+### @color[white](Atomic Designやコンポーネント指向という言葉を聞いたことがある方<i class="em em-hand"></i>)
+
+@snap[south list-content-concise text-white span-100]
+@ul
+- コンポーネント指向とは何かを話す前に、まず少しだけUIが複雑になってきている背景を説明したいと思います。
+@ulend
+@snapend
+
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Agenda]
 
@@ -25,13 +44,17 @@ Agenda!
 @ulend
 @snapend
 
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[Why UI be complicated?]
 
 ## @color[white](UI複雑化の背景)
 
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[reason]
+@title[UI複雑化の背景]
 
 @snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
@@ -40,42 +63,52 @@ Agenda!
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のような、web技術を使った新たなサービスの出現
 - @color[#E71E60](ユーザーが使う端末の種類が増加)
   - 各デバイスの大きさに対応したUIを設計しなければならない
+  - 今やiPhoneだけでも6種類の画面サイズがある
 @ulend
 @snapend
 
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result]
+@title[様々なリスク]
 
 @snap[west text-white span-100]
 ## @color[white](複雑化することによって<br>@color[#E71E60](開発期間の長期化)や<br>@color[#E71E60](不具合・デグレ)が起きる<br>リスクが高まります)
 @snapend
 
 
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result]
+@title[今後どのようにアプローチしていけばよいのか?]
 
 @snap[west span-100]
-### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?)<br>
-#### @color[white](いろいろな方法があると思いますが、その方法の一つであるUIのコンポーネント化について、メリットや設計方法などをお話ししたいと思います。)
+### @color[white](複雑化するUIに対して、今後どのようにアプローチしていけばよいのか?<i class="em em-thinking_face"></i>?)<br>
+@snapend
+
+@snap[south list-content-concise text-white span-100]
+@ul
+- いろいろな方法があると思いますが、その方法の一つであるUIのコンポーネント化について、メリットや設計方法などをお話ししたいと思います。
+@ulend
 @snapend
 
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result]
+@title[そもそもコンポーネントとは1]
 
 @snap[west text-white span-100]
-### @color[white](そもそも  コンポーネント@color[#E71E60](指向)とは?)
+### @color[white](そもそも<br>コンポーネント@color[#E71E60](指向)とは?<i class="em em-thinking_face"></i>??)
 @snapend
 
 
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result2]
+@title[そもそもコンポーネントとは2]
 
 @snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
 - そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
-- それをwebの画面作成に応用し、各UIを部品かした状態。下記4つの特徴があります
+- その部品化されたものを、webの画面を構成する各パーツに当てはめ画面を作成する考え方です。下記4つの特徴があります
   @ol[plit-screen-list]
   - カプセル化されている
   - 置換可能である
@@ -86,52 +119,101 @@ Agenda!
 @snapend
 
 
----?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result]
 
-@snap[west text-white span-100]
-### @color[white](UIが持つ機能を@color[#E71E60](カプセル化)し、UI同士の@color[#E71E60](置換や再利用)が可能な状態にして、組み合わせることにより、より@color[#E71E60](別の大きなUIを作る)ことができるように実装する)
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[つまり]
+
+@snap[North text-white]
+つまり...
 @snapend
 
+@snap[west text-white span-100]
+### @color[white](UIが持つ機能を@color[#E71E60](カプセル化)し、UI同士の@color[#E71E60](置換や再利用)が可能な状態にして、組み合わせることにより、より@color[#E71E60](別の大きなUIを作る)ことができるように設計/実装することと言えます。)
+@snapend
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[result]
+
+@snap[North text-white]
+Example
+@snapend
+
+@snap[east split-screen-byline text-white]
+![DEVELOPER](template/img/sample01.jpg)
+@snapend
+
+@snap[west split-screen-img]
+![DEVELOPER](template/img/sample02.jpg)
+@snapend
+
+@snap[south-west template-note text-gray]
+カプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装します
+@snapend
+
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[メリット1]
 
 @snap[west text-white span-100]
 ### @color[white](Uコンポーネント・ベースで<br>UIを開発する場合の)@color[#E71E60](メリット)
 @snapend
 
+
+
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result2]
+@title[メリット2]
 
 @snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
 - 再利用で実装量を減らす
-- 平行開発で待ち時間を最小化する
-- 仕様変更による手戻り作業を最小化する
-- 新規参入開発メンバーを最短で戦力化する
+- 平行開発で待ち時間を最小化
+- 仕様変更による手戻り作業を最小化
+- 新規参入開発メンバーを最短で戦力化
 - 複数のテスト・アプローチでテスト工数を下げる
 - 複数アプリケーションの開発を容易にする
 @ulend
 @snapend
 
----?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result]
 
-@snap[west text-white span-100]
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[設計の基本と分割基準1]
+
+
+@snap[North text-white]
+このように様々なメリットがありますが
+とは言ってもいきなりコンポーネント・ベースでの開発にシフトするのは難しいと思います。
+@snapend
+
+@snap[North text-white]
+画面UIを設計する場合、基本的にはまず全体から問題を俯瞰してから、各パーツをどのようにレイアウトしていくかを考えるかと思います。
+<br>
+ではどのようにしてコンポーネント・ベースで開発を進めていけばよいのか?<i class="em em-thinking_face"></i>?
+@snapend
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[設計の基本と分割基準1]
+
+@snap[west text-white]
 ### @color[white](コンポーネント・ベースでの設計の基本と分割基準)
 @snapend
 
 
----?color=linear-gradient(to right, #021B79, #0575E6)
-@title[result2]
 
-@snap[east list-content-concise text-white span-100]
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[設計の基本と分割基準]
+
+@snap[east list-content-concise text-white]
 @ul[list-bullets-circles]
 - 依存関係の整理(小さなコンポーネントが大きなコンポーネントを含まない/その逆はOK)
 - 一つのコンポーネントが責任を持つ問題は1つ
 - コンポーネントが担当する目的別
 @ulend
 @snapend
+
+
 
 ---
 @title[Tip! Fullscreen]
