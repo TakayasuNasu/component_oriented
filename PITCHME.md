@@ -201,14 +201,13 @@ Example
 --?color=linear-gradient(to right, #021B79, #0575E6)
 @title[設計の基本と分割基準の具体的方法]
 
-@color[white](
-具体的には
+@snap[east text-white center]
+@color[white](具体的には)
+### @fa[angle-right ] インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
+### @fa[angle-right ] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
+### @fa[angle-right ] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
+@snapend
 
-インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド)
-ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
-
-その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。
-)
 
 
 --?color=linear-gradient(to right, #021B79, #0575E6)
