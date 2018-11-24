@@ -105,10 +105,10 @@ Agenda!
 @title[そもそもコンポーネントとは2]
 
 @snap[east list-content-concise text-white span-100]
-@ul
+@ul[list-bullets-circles]
 - そもそもコンポーネントとは、ある機能を実現するために部品化されたソフトウェアのこと
 - その部品化されたものを、webの画面を構成する各パーツに当てはめ画面を作成する考え方です。下記4つの特徴があります
-  @ol[split-screen-list]
+  @ol
   - カプセル化されている
   - 置換可能である
   - 再利用可能である
