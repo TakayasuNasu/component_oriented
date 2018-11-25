@@ -9,6 +9,12 @@
 企画制作部<br>那須 毅康
 @snapend
 
+Note:
+
+- あいさつ
+- 今月はコンポーネント指向で始めるUI設計、というテーマで少しお話ししたいと思います。
+- 自分もまだコンポーネント指向については勉強中で、実践しているわけではないのですが、今後、サイト開発をする上で役立ちそうなことが多いので、そのあたりのことを共有できたらいいかなと思います。
+
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
@@ -24,9 +30,14 @@
 
 @snap[south list-content-concise text-white span-100]
 @ul
-- コンポーネント指向とは何かを話す前に、まず少しだけUIが複雑になってきている背景を説明したいと思います。
+- コンポーネント指向とは何かを話す前に、UIが複雑になってきている背景を少し説明したいと思います。
 @ulend
 @snapend
+
+Note:
+
+- webのUIが複雑になってきている
+- Atomic Designやコンポーネント指向という考え方が生まれる背景を知っておいた方が、コンポーネント指向がなぜ必要になるのか、がわかりやすいので、先に背景について説明したいと思います。
 
 
 
@@ -60,7 +71,7 @@ Agenda!
 
 @snap[east list-content-concise text-white span-100]
 @ul[list-bullets-circles]
-- @color[#E71E60](html5/css3の登場)
+- @color[#E71E60](HTML5/CSS3の登場)
   - このことによりJavaScriptやcssで実現できることが増加
   - SPA(シングルページアプリケーション)やPWA(プログレッシブウェブアプリ)のような、web技術を使った新たなサービスの出現
 - @color[#E71E60](ユーザーが使う端末の種類が増加)
@@ -69,6 +80,11 @@ Agenda!
 @ulend
 @snapend
 
+Note:
+
+- 2014年10月にhtml5が正式勧告
+- googleMapみたいにajaxを使ってユーザーがインタラクティブに操作できるwebサイトが増加
+- タブレットを含めるとその数は...
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
@@ -117,6 +133,9 @@ Agenda!
 @ulend
 @snapend
 
+Note:
+
+- カプセル化とは、例えば車を運転する場合、ドライバーは運転方法のみ知っていればよく、エンジンがどのように動くのかを知っておく必要がない
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
@@ -127,8 +146,13 @@ Agenda!
 @snapend
 
 @snap[west text-white span-100]
-### @color[white](UIが持つ機能を@color[#E71E60](カプセル化)し、UI同士の@color[#E71E60](置換や再利用)が可能な状態にして、組み合わせることにより、より@color[#E71E60](別の大きなUIを作る)ことができるように設計/実装することと言えます。)
+### @color[white](UIが持つ機能を@color[#E71E60](カプセル化)し、UI同士の@color[#E71E60](置換や再利用)が可能な状態にして、組み合わせることにより、@color[#E71E60](別の大きなUIを作る)ことができるように設計/実装すること。)
 @snapend
+
+Note:
+
+- つまり、コンポーネント指向とは
+
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
@@ -144,8 +168,13 @@ Agenda!
 @snapend
 
 @snap[south-west template-note text-white span-100]
-カプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装します
+枠でカッコっている部分をそれぞれ一つのコンポーネントとみなし、カプセル化、UI同士の置換や再利用が可能な状態にして、別の大きなUIを作ることができるように実装します
 @snapend
+
+Note:
+
+- ここではiprimoを例にコンポーネント指向で設計/実装する場合を考えてみます
+- 赤枠が最も小さいコンポーネントで、それを組み合わせて緑枠のコンポーネント、緑枠のコンポーネントを組み合わせて青枠のコンポーネントを作っていきます。
 
 
 
@@ -178,13 +207,13 @@ Agenda!
 @title[設計の基本と分割基準1]
 
 @snap[west text-white]
-### @color[white](コンポーネント・ベースでの設計の基本と分割基準)
+### @color[white](コンポーネントの分割基準)
 @snapend
 
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[設計の基本と分割基準]
+@title[分割基準]
 
 @snap[east list-content-concise text-white]
 @ul[list-bullets-circles]
@@ -197,11 +226,11 @@ Agenda!
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[設計の基本と分割基準の具体的方法]
+@title[分割基準の具体的方法]
 
 @snap[west text-white]
 @color[white](具体的には)
-####  @color[white](@fa[angle-right] インターフェース・インベントリ（サイトやアプリを構成する UI 部品の一覧を作る。いわゆるスタイルガイド）)
+####  @color[white](@fa[angle-right] インターフェース・インベントリ（サイトやアプリを構成する UI 部品の一覧。いわゆるスタイルガイド）を作る)
 #### @color[white](@fa[angle-right] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
 #### @color[white](@fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
 @snapend
@@ -215,11 +244,11 @@ Agenda!
 @color[white](スタイルガイドのサンプル)
 @snapend
 
-@snap[west split-screen-img-45]
+@snap[west split-screen-img-50]
 ![DEVELOPER](template/img/sample03.jpg)
 @snapend
 
-@snap[east split-screen-img-45]
+@snap[east split-screen-img-50]
 ![DEVELOPER](template/img/sample04.jpg)
 @snapend
 
@@ -240,7 +269,6 @@ Agenda!
 @snap[east list-content-concise text-white span-75]
 @ul[list-bullets-circles](false)
 - 今後もweb技術の発展と共にUIは複雑になっていきそう
-- 複雑化したUIに対するアプローチの一つとしてコンポーネント指向をベースとしたUI開発があります
 - UIが持つ機能をカプセル化し、UI同士の置換や再利用が可能な状態にして、組み合わせることにより、より別の大きなUIを作ることができるように実装します
 - それなりの規模のサイトを作る場合はスタイルガイドを作りましょう
 @ulend
