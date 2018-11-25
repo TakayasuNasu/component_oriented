@@ -163,7 +163,6 @@ Note:
 @snapend
 
 @snap[midpoint]
-![DEVELOPER](template/img/sample01.jpg)
 ![DEVELOPER](template/img/sample02.jpg)
 @snapend
 
@@ -204,7 +203,7 @@ Note:
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[設計の基本と分割基準1]
+@title[分割基準1]
 
 @snap[west text-white]
 ### @color[white](コンポーネントの分割基準)
@@ -213,7 +212,7 @@ Note:
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[分割基準]
+@title[分割基準2]
 
 @snap[east list-content-concise text-white]
 @ul[list-bullets-circles]
@@ -224,15 +223,29 @@ Note:
 @snapend
 
 
+- コンポーネントを分割する際の目安としてください
+
+
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
-@title[分割基準の具体的方法]
+@title[既存のワークフローを活かしつつコンポーネント・ベースで開発を進めていく方法]
 
 @snap[west text-white]
-@color[white](具体的には)
-####  @color[white](@fa[angle-right] インターフェース・インベントリ（サイトやアプリを構成する UI 部品の一覧。いわゆるスタイルガイド）を作る)
-#### @color[white](@fa[angle-right] ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
-#### @color[white](@fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります。)
+### @color[white](既存のワークフローを活かしつつ<br>コンポーネント・ベースで開発を進めていく方法)
+@snapend
+
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[既存のワークフローを活かしつつコンポーネント・ベースで開発を進めていく方法]
+
+
+@snap[east list-content-concise text-white]
+@ul[list-bullets-circles]
+- インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧。いわゆるスタイルガイド)を作る
+- ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
+- **@fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります**
+@ulend
 @snapend
 
 
