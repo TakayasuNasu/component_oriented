@@ -240,7 +240,7 @@ Note:
 @snap[east list-content-concise text-white]
 @ul[list-bullets-circles]
 - インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧。いわゆるスタイルガイド)を作る
-- ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう)
+- ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
 - **@fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります**
 @ulend
 @snapend
