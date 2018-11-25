@@ -162,7 +162,7 @@ Note:
 例えばiprimoの場合
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-100]
 ![DEVELOPER](template/img/sample02.jpg)
 @snapend
 
