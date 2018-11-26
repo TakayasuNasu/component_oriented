@@ -118,6 +118,28 @@ Note:
 
 
 ---?color=linear-gradient(to right, #021B79, #0575E6)
+@title[Example]
+
+@snap[north text-white]
+例えばiprimoの場合
+@snapend
+
+@snap[midpoint span-100]
+![DEVELOPER](template/img/sample02.jpg)
+@snapend
+
+@snap[south-west template-note text-white span-100]
+枠で囲っている部分をそれぞれ一つのコンポーネントとみなし、カプセル化、UI同士の置換や再利用が可能な状態にして、別の大きなUIを作ることができるように実装します
+@snapend
+
+Note:
+
+- ここではiprimoを例にコンポーネント指向で設計/実装する場合を考えてみます
+- 赤枠が最も小さいコンポーネントで、それを組み合わせて緑枠のコンポーネント、緑枠のコンポーネントを組み合わせて青枠のコンポーネントを作っていきます。
+
+
+
+---?color=linear-gradient(to right, #021B79, #0575E6)
 @title[そもそもコンポーネントとは2]
 
 @snap[east list-content-concise text-white span-100]
@@ -152,28 +174,6 @@ Note:
 Note:
 
 - つまり、コンポーネント指向とは
-
-
-
----?color=linear-gradient(to right, #021B79, #0575E6)
-@title[Example]
-
-@snap[north text-white]
-例えばiprimoの場合
-@snapend
-
-@snap[midpoint span-100]
-![DEVELOPER](template/img/sample02.jpg)
-@snapend
-
-@snap[south-west template-note text-white span-100]
-枠でカッコっている部分をそれぞれ一つのコンポーネントとみなし、カプセル化、UI同士の置換や再利用が可能な状態にして、別の大きなUIを作ることができるように実装します
-@snapend
-
-Note:
-
-- ここではiprimoを例にコンポーネント指向で設計/実装する場合を考えてみます
-- 赤枠が最も小さいコンポーネントで、それを組み合わせて緑枠のコンポーネント、緑枠のコンポーネントを組み合わせて青枠のコンポーネントを作っていきます。
 
 
 
@@ -241,6 +241,7 @@ Note:
 @ul[list-bullets-circles]
 - インターフェース・インベントリ(サイトやアプリを構成する UI 部品の一覧。いわゆるスタイルガイド)を作る
 - ちょっと大きめのサイトを作る場合はスタイルガイドも作りましょう
+- 作るタイミングは開発の初期段階もしくは各フェーズ終了後、次のフェーズの開発が始まるまでの間など
 - **@fa[angle-right] その結果、UIが複雑なサイトやアプリケーションの開発が用意になります**
 @ulend
 @snapend
